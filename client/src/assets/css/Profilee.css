@@ -1,0 +1,15 @@
+.btnn{
+
+    margin-right:14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.btnn:last-child{
+    margin-right: 0;
+}
+.profile-buttons{
+    margin-bottom: 3rem;
+}
+.btnn:active{
+    background-color: #1e7d80;
+}

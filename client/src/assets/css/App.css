@@ -1,0 +1,59 @@
+
+ 
+ .container th  {
+       font-weight: bold;
+       font-size: 1em;
+       word-wrap:no-wrap;
+ 
+  
+ }
+ .letter{
+    text-transform: capitalize;
+ }
+
+ .container td {
+       font-weight: normal;
+       font-size: 1em;
+      background-color: white;
+  
+             color: #2cb1bc;
+             width: fit-content;
+             
+ }
+ 
+ .container {
+       text-align: center;
+       overflow: hidden;
+       
+   display: table;
+   padding: 0 0 8em 0;
+ }
+ 
+ .container td, .container th {
+      padding: 0.7%;
+      
+ }
+ table.container {
+    width: 100%;
+    margin: 0;
+ }
+ /* Background-color of the odd rows */
+ .container tr:nth-child(odd) {
+    background-color: #ffffff;
+    color: #2cb1bc;
+ }
+ .container  td:last-child:hover {background-color: #fff;
+
+
+      }
+
+ 
+ .container th {
+    background-color: #2cb1bc;
+    color: white;
+    font-family: system-ui;
+    
+ }
+ 
+
+ 
